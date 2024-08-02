@@ -1,0 +1,4962 @@
+{
+  "disableSubmitInternalState": [],
+  "created": "2023-06-07T12:58:18.250867705Z",
+  "versionId": "acme-10",
+  "releaseNotes": null,
+  "gitHash": null,
+  "categories": [
+    {
+      "id": "root",
+      "name": "root",
+      "description": null,
+      "leaf": false,
+      "parentId": null,
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "PRIMARY_ASSET",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PRODUCT_TITLE",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "ASSET_BRAND_LOGO",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DESCRIPTION",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DESCRIPTION_ML",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PRODUCTION_YEAR",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MERCHANT_CATEGORY",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PRICE",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "CURRENCY",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_BREAKDOWN",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "FAMILY",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "SELLABLE_IN_STORE",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "FAMILY",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "SELLABLE_ONLINE",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "FAMILY",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "SELLABLE_FROM",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PROMOTIONAL_DATES",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "COUNTRY_OF_ORIGIN",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "ASSET_FRONT",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "ASSET_BACK",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "ASSET_DETAIL",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "ASSET_CONTEXT",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "GLN",
+          "optional": true,
+          "initRequired": true,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PACKAGING_PATH",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "SUBSTITUTED_BY",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "GTIN",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PRIMARY_ASSET",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DEFAULT_SUBMIT_OUTCOME_ID",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DEFAULT_SUBMIT_MESSAGE_ID",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "ACCOUNT_DISCRIMINATOR",
+          "optional": null,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CLOTHING",
+      "name": "Clothing",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "STYLE_ID",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "FAMILY",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "COLOR",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "SIZE",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "VARIANT",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ACCESSORIES",
+      "name": "Accessories",
+      "description": null,
+      "leaf": false,
+      "parentId": "CLOTHING",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "COUNTRY_OF_ORIGIN",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FOOTWEAR",
+      "name": "Footwear",
+      "description": null,
+      "leaf": true,
+      "parentId": "CLOTHING",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "COUNTRY_OF_ORIGIN",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HATS_AND_CAPS",
+      "name": "Hats & caps",
+      "description": null,
+      "leaf": true,
+      "parentId": "ACCESSORIES",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "MERCHANT_CATEGORY",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": "D25H - SAFETY/SECURITY, DOOR LOCKS, PNEUMATIC FASTENERS, COMPRESSERS/AIR TOOLS, FASTENERS (Merchant: Sara Harbarger)"
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BAGS",
+      "name": "Bags",
+      "description": null,
+      "leaf": false,
+      "parentId": "ACCESSORIES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SHOULDERBAGS",
+      "name": "Shoulderbags",
+      "description": null,
+      "leaf": true,
+      "parentId": "BAGS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BAGPACKS",
+      "name": "Bagpacks",
+      "description": null,
+      "leaf": true,
+      "parentId": "BAGS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SUNGLASSES",
+      "name": "Sunglasses",
+      "description": null,
+      "leaf": true,
+      "parentId": "ACCESSORIES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "JEWELLERY",
+      "name": "Jewellery",
+      "description": null,
+      "leaf": true,
+      "parentId": "ACCESSORIES",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "COLOR",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [
+            "Black",
+            "White"
+          ],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WATCHES",
+      "name": "Watches",
+      "description": null,
+      "leaf": false,
+      "parentId": "ACCESSORIES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ANALOG",
+      "name": "Analog",
+      "description": null,
+      "leaf": true,
+      "parentId": "WATCHES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DIGITAL",
+      "name": "Digital",
+      "description": null,
+      "leaf": true,
+      "parentId": "WATCHES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SHIRTS",
+      "name": "Shirts",
+      "description": null,
+      "leaf": false,
+      "parentId": "CLOTHING",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "MEASURE_CHEST",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MEASURE_LENGTH",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MEASURE_SHOULDER",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "T_SHIRTS",
+      "name": "T-shirts",
+      "description": null,
+      "leaf": false,
+      "parentId": "SHIRTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PATTERN",
+      "name": "Pattern",
+      "description": null,
+      "leaf": true,
+      "parentId": "T_SHIRTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PRINT",
+      "name": "Print",
+      "description": null,
+      "leaf": true,
+      "parentId": "T_SHIRTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PLAIN",
+      "name": "Plain",
+      "description": null,
+      "leaf": true,
+      "parentId": "T_SHIRTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PANTS",
+      "name": "Pants",
+      "description": null,
+      "leaf": false,
+      "parentId": "CLOTHING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "JEANS",
+      "name": "Jeans",
+      "description": null,
+      "leaf": true,
+      "parentId": "PANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SHORTS",
+      "name": "Shorts",
+      "description": null,
+      "leaf": true,
+      "parentId": "PANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DRESS",
+      "name": "Dress",
+      "description": null,
+      "leaf": true,
+      "parentId": "PANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SWEATSHIRTS",
+      "name": "Sweatshirts",
+      "description": null,
+      "leaf": true,
+      "parentId": "SHIRTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "JACKETS_AND_COATS",
+      "name": "Jackets & coats",
+      "description": null,
+      "leaf": false,
+      "parentId": "CLOTHING",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "MEASURE_CHEST",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MEASURE_LENGTH",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MEASURE_SHOULDER",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WINTERJACKETS",
+      "name": "Winterjackets",
+      "description": null,
+      "leaf": true,
+      "parentId": "JACKETS_AND_COATS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ELECTRONICS",
+      "name": "Electronics",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TV_PHOTO_AND_SOUND",
+      "name": "TV, photo and sound",
+      "description": null,
+      "leaf": false,
+      "parentId": "ELECTRONICS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SYSTEMS_AND_SPEAKERS",
+      "name": "Systems and speakers",
+      "description": null,
+      "leaf": true,
+      "parentId": "TV_PHOTO_AND_SOUND",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DVD_AND_BLU-RAY_PLAYERS",
+      "name": "DVD and Blu-Ray players",
+      "description": null,
+      "leaf": true,
+      "parentId": "TV_PHOTO_AND_SOUND",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HEADPHONES",
+      "name": "Headphones",
+      "description": null,
+      "leaf": true,
+      "parentId": "TV_PHOTO_AND_SOUND",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CAMERA_AND_ACCESSORIES",
+      "name": "Camera and accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "TV_PHOTO_AND_SOUND",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "MUSIC",
+      "name": "Music",
+      "description": null,
+      "leaf": true,
+      "parentId": "TV_PHOTO_AND_SOUND",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TV",
+      "name": "TV",
+      "description": null,
+      "leaf": true,
+      "parentId": "TV_PHOTO_AND_SOUND",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TV_ACCESSORIES",
+      "name": "TV accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "TV_PHOTO_AND_SOUND",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "COMPUTERS_AND_GAMING",
+      "name": "Computers and gaming",
+      "description": null,
+      "leaf": false,
+      "parentId": "ELECTRONICS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "COMPUTERS",
+      "name": "Computers",
+      "description": null,
+      "leaf": true,
+      "parentId": "COMPUTERS_AND_GAMING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "COMPUTER_ACCESSORIES",
+      "name": "Computer accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "COMPUTERS_AND_GAMING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HARD_DRIVES_AND_HARDWARE",
+      "name": "Hard drives and hardware",
+      "description": null,
+      "leaf": true,
+      "parentId": "COMPUTERS_AND_GAMING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TABLETS",
+      "name": "Tablets",
+      "description": null,
+      "leaf": true,
+      "parentId": "COMPUTERS_AND_GAMING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CONSOLES_AND_GAMES",
+      "name": "Consoles and games",
+      "description": null,
+      "leaf": true,
+      "parentId": "COMPUTERS_AND_GAMING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PRINTERS_AND_INK",
+      "name": "Printers and Ink",
+      "description": null,
+      "leaf": true,
+      "parentId": "COMPUTERS_AND_GAMING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ROUTERS_AND_NETWORKS",
+      "name": "Routers and networks",
+      "description": null,
+      "leaf": true,
+      "parentId": "COMPUTERS_AND_GAMING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HOUSEHOLD",
+      "name": "Household",
+      "description": null,
+      "leaf": false,
+      "parentId": "ELECTRONICS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BABY_MONITORS",
+      "name": "Baby Monitors",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BATTERIES",
+      "name": "Batteries",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HOUSEHOLD_APPLIANCES",
+      "name": "Household Appliances",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "COFFEE_AND_ESPRESSO_MACHINES",
+      "name": "Coffee and espresso machines",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "COMBINE_AND_MICROWAVE_OVENS",
+      "name": "Combine and microwave ovens",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "KITCHEN_APPLIANCES",
+      "name": "Kitchen appliances",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "IRONING_AND_CLEANING",
+      "name": "Ironing and cleaning",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "VACUUM_CLEANERS",
+      "name": "Vacuum Cleaners",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CLOCKS_AND_WEATHER_STATIONS",
+      "name": "Clocks and weather stations",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PHONE_AND_GPS",
+      "name": "Phone and GPS",
+      "description": null,
+      "leaf": false,
+      "parentId": "ELECTRONICS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CELL_PHONES",
+      "name": "Cell phones",
+      "description": null,
+      "leaf": true,
+      "parentId": "PHONE_AND_GPS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ACTIVITY_TRACTORS_RUNNING_RIDES_AND_GPS",
+      "name": "Activity tractors, running rides and GPS",
+      "description": null,
+      "leaf": true,
+      "parentId": "PHONE_AND_GPS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PHONE_ACCESSORIES",
+      "name": "Phone Accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "PHONE_AND_GPS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "POWER_BANKS",
+      "name": "Power Banks",
+      "description": null,
+      "leaf": true,
+      "parentId": "PHONE_AND_GPS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SMARTWATCHES",
+      "name": "Smartwatches",
+      "description": null,
+      "leaf": true,
+      "parentId": "PHONE_AND_GPS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HOUSING",
+      "name": "Housing",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TOOLS",
+      "name": "Tools",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FURNITURE",
+      "name": "Furniture",
+      "description": null,
+      "leaf": false,
+      "parentId": "HOUSING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TABLES",
+      "name": "Tables",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CHILDRENS_FURNITURE",
+      "name": "Children's furniture",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HALLWAY_FURNITURE",
+      "name": "Hallway Furniture",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FURNITURE_CARE",
+      "name": "Furniture care",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "STORAGE",
+      "name": "Storage",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BEDS_AND_MATTRESSES",
+      "name": "Beds and mattresses",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "COUCHES",
+      "name": "Couches",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DINING_TABLES",
+      "name": "Dining tables",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CHAIRS",
+      "name": "Chairs",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BEANBAGS",
+      "name": "Beanbags",
+      "description": null,
+      "leaf": true,
+      "parentId": "FURNITURE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "INTERIOR_DECORATION_AND_TEXTILE",
+      "name": "Interior decoration and textile",
+      "description": null,
+      "leaf": false,
+      "parentId": "HOUSING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BATH_MATS",
+      "name": "Bath mats",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "LIGHTING",
+      "name": "Lighting",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GALLERY_AND_HANDICRAFTS",
+      "name": "Gallery and handicrafts",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TABLECLOTHS_AND_TABLECLOTHS",
+      "name": "Tablecloths and tablecloths",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BLANKETS_AND_PILLOWS",
+      "name": "Blankets and pillows",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CURTAINS",
+      "name": "Curtains",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GLASSES_AND_WHITEBOARDS",
+      "name": "Glasses and whiteboards",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TOWELS",
+      "name": "Towels",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "INTERIOR_PAINTING",
+      "name": "Interior Painting",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "KITCHEN_TEXTILES",
+      "name": "kitchen Textiles",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CUSHIONS",
+      "name": "Cushions",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "LINEN_AND_SHEETS",
+      "name": "Linen and sheets",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SEW_KNIT_&_CROCHET",
+      "name": "Sew, Knit & Crochet",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "RUGS_SKINS_AND_PLAIDS",
+      "name": "Rugs, skins and plaids",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WALL_CLOCKS",
+      "name": "Wall clocks",
+      "description": null,
+      "leaf": true,
+      "parentId": "INTERIOR_DECORATION_AND_TEXTILE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "KITCHENWARE_AND_BATHROOM",
+      "name": "Kitchenware and bathroom",
+      "description": null,
+      "leaf": false,
+      "parentId": "HOUSING",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BATHROOM_ACCESSORIES",
+      "name": "Bathroom Accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BAKING_AND_DISHES",
+      "name": "Baking and dishes",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CUTLERY_AND_SERVICE",
+      "name": "Cutlery and service",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ELECTRIC_APPLIANCES",
+      "name": "Electric appliances",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GLASS_BOWLS_AND_CHINA",
+      "name": "Glass, bowls and china",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "POTS_AND_PANS",
+      "name": "Pots and pans",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "KITCHEN_CONTAINERS",
+      "name": "Kitchen Containers",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "UTENSILS",
+      "name": "Utensils",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "IRONING_AND_SINK",
+      "name": "Ironing and sink",
+      "description": null,
+      "leaf": true,
+      "parentId": "KITCHENWARE_AND_BATHROOM",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GARDEN",
+      "name": "Garden",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GARDEN_MACHINES_AND_TOOLS",
+      "name": "Garden machines and tools",
+      "description": null,
+      "leaf": false,
+      "parentId": "GARDEN",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "LAWNMOWERS",
+      "name": "Lawnmowers",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ROBOTIC_MOWERS",
+      "name": "Robotic mowers",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "STRING_TRIMMERS",
+      "name": "String Trimmers",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HEDGE",
+      "name": "Hedge",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GARDEN_TRACTORS",
+      "name": "Garden Tractors",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SWEEPERS",
+      "name": "Sweepers",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CHAINSAWS",
+      "name": "Chainsaws",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WOOD",
+      "name": "Wood",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "LEAF_BLOWERS",
+      "name": "Leaf Blowers",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SHREDDERS",
+      "name": "Shredders",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PUMPS",
+      "name": "Pumps",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GARDEN_TOOLS",
+      "name": "Garden Tools",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "ACCESSORIES_FOR_GARDEN_MACHINES",
+      "name": "Accessories for garden machines",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_MACHINES_AND_TOOLS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DECORATION_AND_PLANTS",
+      "name": "Decoration and Plants",
+      "description": null,
+      "leaf": false,
+      "parentId": "GARDEN",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FLOWER_BULBS_AND_SEEDS",
+      "name": "Flower bulbs and seeds",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "VARIOUS_GARDEN_FURNITURE",
+      "name": "Various garden furniture",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GREENHOUSES_AND_ACCESSORIES",
+      "name": "Greenhouses and accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FLAG_AND_FLAGPOLES",
+      "name": "Flag and flagpoles",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FENCE_AND_FORECLOSURE",
+      "name": "Fence and foreclosure",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HIGH_PRAYERS_AND_FLOWER_BOXES",
+      "name": "High prayers and flower boxes",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "JARS_AND_POTS",
+      "name": "Jars and pots",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PLANTS_AND_TREES",
+      "name": "Plants and trees",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "EXTERIOR_LIGHTS",
+      "name": "Exterior lights",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WATER_GAMES",
+      "name": "Water Games",
+      "description": null,
+      "leaf": true,
+      "parentId": "DECORATION_AND_PLANTS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GARDEN_FURNITURE_AND_BARBECUE",
+      "name": "Garden furniture and barbecue",
+      "description": null,
+      "leaf": false,
+      "parentId": "GARDEN",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TABLE_AND_BENCH",
+      "name": "Table and bench",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GRILL_AND_GRILL_ACCESSORIES",
+      "name": "Grill and grill accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GARDEN_CUSHIONS",
+      "name": "Garden Cushions",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CUSHION_BOXES",
+      "name": "Cushion boxes",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PATIO_FURNITURE",
+      "name": "Patio furniture",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HAMMOCKS",
+      "name": "Hammocks",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "AWNINGS_AND_ACCESSORIES",
+      "name": "Awnings and accessories",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PARASOLS",
+      "name": "Parasols",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PARASOL_BASES",
+      "name": "Parasol bases",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PAVILIONS",
+      "name": "Pavilions",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PATIO_HEATERS",
+      "name": "Patio heaters",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TERRACE_COVER",
+      "name": "Terrace Cover",
+      "description": null,
+      "leaf": true,
+      "parentId": "GARDEN_FURNITURE_AND_BARBECUE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "APPLIANCES",
+      "name": "Appliances",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WASHING_MACHINES_AND_TUMBLERS",
+      "name": "Washing machines and tumblers",
+      "description": null,
+      "leaf": false,
+      "parentId": "APPLIANCES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WASHING_MACHINES",
+      "name": "Washing machines",
+      "description": null,
+      "leaf": true,
+      "parentId": "WASHING_MACHINES_AND_TUMBLERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CONDENSER_TUMBLE_DRYER",
+      "name": "Condenser tumble dryer",
+      "description": null,
+      "leaf": true,
+      "parentId": "WASHING_MACHINES_AND_TUMBLERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DRYING_CABINETS",
+      "name": "Drying Cabinets",
+      "description": null,
+      "leaf": true,
+      "parentId": "WASHING_MACHINES_AND_TUMBLERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "STOVES_AND_COOKERS",
+      "name": "Stoves and cookers",
+      "description": null,
+      "leaf": true,
+      "parentId": "WASHING_MACHINES_AND_TUMBLERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GLASS_CERAMIC_COOKERS",
+      "name": "Glass ceramic cookers",
+      "description": null,
+      "leaf": true,
+      "parentId": "WASHING_MACHINES_AND_TUMBLERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "INDUCTION_COOKERS",
+      "name": "Induction cookers",
+      "description": null,
+      "leaf": true,
+      "parentId": "WASHING_MACHINES_AND_TUMBLERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "GAS_COOKERS",
+      "name": "Gas cookers",
+      "description": null,
+      "leaf": true,
+      "parentId": "WASHING_MACHINES_AND_TUMBLERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DISHWASHERS",
+      "name": "Dishwashers",
+      "description": null,
+      "leaf": false,
+      "parentId": "APPLIANCES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "INTEGRATED_DISHWASHER",
+      "name": "Integrated dishwasher",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TABLE_DISHWASHERS",
+      "name": "Table dishwashers",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FREE_STANDING_DISHWASHERS",
+      "name": "Free standing dishwashers",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FRIDGE_AND_FREEZER",
+      "name": "Fridge and freezer",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "REFRIGERATORS",
+      "name": "Refrigerators",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FRIDGE_FREEZERS",
+      "name": "Fridge / freezers",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "WINE_COOLERS",
+      "name": "Wine Coolers",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DOUBLE_DOOR_FRIDGES",
+      "name": "Double door fridges",
+      "description": null,
+      "leaf": true,
+      "parentId": "DISHWASHERS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "OVENS",
+      "name": "Ovens",
+      "description": null,
+      "leaf": false,
+      "parentId": "APPLIANCES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BUILD_IN_OVENS",
+      "name": "Build in ovens",
+      "description": null,
+      "leaf": true,
+      "parentId": "OVENS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "COMBI_OVENS",
+      "name": "Combi Ovens",
+      "description": null,
+      "leaf": true,
+      "parentId": "OVENS",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "ASSET_BRAND_LOGO",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "STEAM_OVENS",
+      "name": "Steam Ovens",
+      "description": null,
+      "leaf": true,
+      "parentId": "OVENS",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "ASSET_BRAND_LOGO",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "FUN_AND_GAMES",
+      "name": "Fun and games",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BOARD_GAMES",
+      "name": "Board games",
+      "description": null,
+      "leaf": true,
+      "parentId": "FUN_AND_GAMES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "OUTDOOR_GAMES",
+      "name": "Outdoor games",
+      "description": null,
+      "leaf": true,
+      "parentId": "FUN_AND_GAMES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TOYS",
+      "name": "Toys",
+      "description": null,
+      "leaf": true,
+      "parentId": "FUN_AND_GAMES",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PERSONAL_CARE",
+      "name": "Personal Care",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SHAMPOO",
+      "name": "Shampoo",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CONDITIONER",
+      "name": "Conditioner",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "LOTION",
+      "name": "Lotion",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SHAVING_CREAM",
+      "name": "Shaving Cream",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SHAVERS",
+      "name": "Shavers",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "CREAM",
+      "name": "Cream",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PERFUME",
+      "name": "Perfume",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "SOAP",
+      "name": "Soap",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "TOOTHPASTE",
+      "name": "Toothpaste",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "NAIL_POLISH",
+      "name": "Nail Polish",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "MAKEUP",
+      "name": "Makeup",
+      "description": null,
+      "leaf": true,
+      "parentId": "PERSONAL_CARE",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "HOUSEHOLD_ESSENTIALS",
+      "name": "Household Essentials",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PAPER_PLASTIC",
+      "name": "Paper & Plastic",
+      "description": null,
+      "leaf": true,
+      "parentId": "HOUSEHOLD_ESSENTIALS",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BABY",
+      "name": "Baby",
+      "description": null,
+      "leaf": false,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "DIAPERS",
+      "name": "Diapers",
+      "description": null,
+      "leaf": true,
+      "parentId": "BABY",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "BABY_FOOD",
+      "name": "Food",
+      "description": null,
+      "leaf": true,
+      "parentId": "BABY",
+      "familyApplicable": true,
+      "attributeLinks": [],
+      "businessRuleScopes": []
+    },
+    {
+      "id": "PACKAGING",
+      "name": "Packaging",
+      "description": null,
+      "leaf": true,
+      "parentId": "root",
+      "familyApplicable": true,
+      "attributeLinks": [
+        {
+          "id": "PACKAGING",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "GROSS_WEIGHT",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "HEIGHT",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DEPTH",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "WIDTH",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DANGEROUS_CONTENT",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PACKAGING_LEVEL",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "businessRuleScopes": []
+    }
+  ],
+  "attributes": [
+    {
+      "id": "GLN",
+      "externalId": null,
+      "name": "GLN",
+      "description": "Enter GLN for supplier.",
+      "type": {
+        "id": "gtin",
+        "restriction": {
+          "parameters": {
+            "gtinSizes": "[13]"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES",
+        "__PACKAGING_IDENTIFIERS"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR",
+        "INITIALIZATION_CHANNEL_STATUS"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "DESCRIPTION",
+      "externalId": null,
+      "name": "Description",
+      "description": "A detailed description of the product. This will be presented to the customer on the webshop and in marketing material. No more than 300 charachters allowed.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {
+            "maxLength": "300"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES",
+        "__LISTVIEW",
+        "__ATTRIBUTE_FILTER"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PRODUCT_TITLE",
+      "externalId": null,
+      "name": "Product Title",
+      "description": "A descriptive title used for SEO and displayed in prominent locations. No more than 200 charachters allowed.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {
+            "maxLength": "200"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES",
+        "__LISTVIEW",
+        "__ATTRIBUTE_FILTER"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "DESCRIPTION_ML",
+      "externalId": null,
+      "name": "Multilanguage Description",
+      "description": "Multilangual detailed description of the product.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {
+            "maxLength": "300"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": {
+          "enabled": true
+        },
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES",
+        "__LISTVIEW"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "COUNTRY_OF_ORIGIN",
+      "externalId": null,
+      "name": "Country of origin",
+      "description": "Select a country from the list. If the wanted country is not on the list, select other. ",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "United States of America",
+            "Denmark",
+            "Poland",
+            "Norway",
+            "Sweden",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Spain",
+            "China",
+            "India",
+            "Japan",
+            "Mexico",
+            "Brazil",
+            "Thailand",
+            "Cambodia",
+            "Vietnam"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES",
+        "__LISTVIEW"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MERCHANT_CATEGORY",
+      "externalId": null,
+      "name": "Select your Home Depot Online Merchant/Category",
+      "description": "Please select a Merchant/Category if you want a specific Merchant to review your products once submitted.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "D21/22 - LUMBER, LADDERS, CONCRETE, FENCING, METAL PRODUCTS, GYPSUM (Merchant: Delante Hamilton)",
+            "D22 - ROOFING, VENTILATION, SIDING (Merchant: Joseph Downey)",
+            "D23/59S - STORAGE & ORGANIZATION AND WINDOW TREATMENTS (Merchant: Taryn Dominie)",
+            "D23F - CARPET, AREA RUGS/MATS, VINYL FLOORING (Merchant: Courtney Semkuley)",
+            "D23F - FLOORING, FLOORING CLEANING, CEILINGS, INSTALLATION (Merchant: Deana Thornton)",
+            "D24 - PAINT, CAULKS, PRIMERS, SOLVANTS/SEALERS, PAINT TOOLS, PATCHING & REPAIR (Merchant: Christine Hein)",
+            "D25H - BOOTS AND WORK WEAR (Merchant: Andrius Labanauskas)",
+            "D25H - BUILDERS/CABINET/CLOSET HARDWARE, LABELS/PLAQUES (Merchant: Madhuri Giri)",
+            "D25H - SAFETY/SECURITY, DOOR LOCKS, PNEUMATIC FASTENERS, COMPRESSERS/AIR TOOLS, FASTENERS (Merchant: Sara Harbarger)",
+            "D25T - AUTOMOTIVE (Merchant: William Cody)",
+            "D25T - HAND/JOB SITE TOOLS, GARAGE, LUBRICANTS, GENERATORS, PORTABLE POWER (Merchant: Matt Brown)",
+            "D26P - PLUMBING, WATER HEATERS, HVAC, WATER TREATMENTS, PLUMBING REPAIR, PIPS and PUMPS (Merchant:  Ken Johnson)",
+            "D27E - ELECTRICAL, HOME THEATER, CIRUCIT PROTECTION/CONDUCTORS, PORTABLE HEATING, ELECTRICAL TOOLS/ACCESSORIES (Merchant: Jennifer Morford)",
+            "D27L - CEILING FANS (Merchant: Amanda Crump)",
+            "D27L - INTERIOR and EXTERIOR LIGHTING (Merchant: Brian Sheehy)",
+            "D27L - LIGHT BULBS (Merchant: Jennifer Tate)",
+            "D27L - LIGHTING (Merchant:  Brian Sheehy)",
+            "D28I - DISPOSABLE TABLEWARE (Merchant: Kristen Little)",
+            "D28I - GRILLS,FIREPLACES, STOVES (Merchant: Abigail Hearn)",
+            "D28I - OUTDOOR POWER AND GENERATORS (Merchant: Jennifer Poole)",
+            "D28I - PATIO FURNITURE, DINNING, UMBRELLAS, CUSHIONS, OUTDOOR GRILLS, FIREPLACE and GAS LOGS (Merchant: Eva Rodriguez)",
+            "D28I - PATIO, WATER GARDENING, BOOKS (Merchant:  Jennifer Jarrett)",
+            "D28I - POOL (Merchant: Alena Prochnow)",
+            "D28I - WATERING, GARDENING TOOLS, FOOD, STORAGE BUILDINGS, CLEANING, OUTDOOR RECREATION, AND INSTALLED STRUCTURES, PUBLICATIONS (Merchant: Neal Patel)",
+            "D28O - DECORATIVE HOLIDAY (Merchant: Kelie Charles)",
+            "D28O - HARDSCAPES, PET SUPPLIES (Merchant: Chrysten Strachan)",
+            "D28O - LAWN, FERTILIZER, LIVE GOODS (Merchant: Brittney Sheffield)",
+            "D29 - SMALL ELECTRICS, HOUSEWARES, PORTALBE DRINKWARE (Merchant: Robert Wilburn)",
+            "D29A - APPLIANCES (Merchant:  Jessica Campbell)",
+            "D29A - DISPOSERS, FLOORCARE, AIR QUALITY, APPLIANCE PARTS (Merchant: Joie Markes)",
+            "D29A - FLOORCARE, AIR QUALITY, APPLIANCE PARTS (Merchant: Joie Markes)",
+            "D29A - REFRIGERATION, COOKING, DELIVERY, APPLIANCE INSTALLATION, DISHWASHERS (Merchant: Jawad Ahmed)",
+            "D29B - COUNTERTOPS, SINKS, SINK HARDWARE/PLUMBING, CABINETS, KITCHEN INSTALLATIONS (Merchant: Andrea Blair)",
+            "D29B - DINNERWARE, LUGGAGE (Merchant:  Christa Endler)",
+            "D29B - FAUCETS, BATH ACCESSORIES, VANITIES, SHOWER/TUB FIXTURES and PARTS (Merchant: Josef Pettus)",
+            "D29B - KITCHEN AND BATH HOUSEWARES (Merchant:  Robert Wilburn)",
+            "D29B - TABLETOP, DINNERWARE (Merchant: Gregory Allgeyer)",
+            "D29B - WATER FILTER CARTRIDGES, SALT, WATER SOFTENERS, S/O, and UNDER SINK WATER FILTERS (Merchant: Kevin Pineda)",
+            "D29B/59S - LUGGAGE, DÉCOR TEXTILES, WALLPAPER (Merchant: Christa Endler)",
+            "D30 - MILLWORK (Merchant: Matthew Wells)",
+            "D59S - DECOR TEXTILES (Merchant:  Christa Endler)",
+            "D59S - HOME DECOR AND WALL DECOR (Merchant: Cassie West)",
+            "D59S - INTERIOR FURNITURE (Merchant: Jackie Millazzo)",
+            "D59S - STORAGE & ORGANIZATION AND WINDOW TREATMENTS (Merchant: Amber Hall)"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [
+        "ACCEPTED",
+        "ENRICH-SUPPLYCHAIN",
+        "MAINTENANCE",
+        "MAINENTANCE-SUPPLYCHAIN"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "COLOR",
+      "externalId": null,
+      "name": "Color",
+      "description": "Select the color that matches the product best from the list.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "Beige",
+            "Black",
+            "Blue",
+            "Brown",
+            "Green",
+            "Grey",
+            "Multicolored",
+            "Off-White",
+            "Orange",
+            "Pink",
+            "Purple",
+            "Red",
+            "Turquoise",
+            "White",
+            "Yellow"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES",
+        "__LISTVIEW"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PRICE",
+      "externalId": null,
+      "name": "Price",
+      "description": "Enter the price of the product. Remember to fill out the currency column.",
+      "type": {
+        "id": "decimal",
+        "restriction": {
+          "parameters": {
+            "minValue": "0",
+            "minFraction": "2",
+            "maxFraction": "2"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "PAYMENT",
+        "__LISTVIEW"
+      ],
+      "disableSubmitInStates": [
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "STYLE_ID",
+      "externalId": null,
+      "name": "Style ID",
+      "description": "Enter the style ID of the product. This value is used to group clothing according to their family.",
+      "type": {
+        "id": "integer",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "CURRENCY",
+      "externalId": null,
+      "name": "Currency",
+      "description": "Please select the correct currency from the list.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "USD",
+            "DKK",
+            "EUR",
+            "PLN",
+            "GBP",
+            "NOK",
+            "SEK"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "PAYMENT",
+        "__LISTVIEW"
+      ],
+      "disableSubmitInStates": [
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "SELLABLE_FROM",
+      "externalId": null,
+      "name": "Sellable from",
+      "description": "Please enter a date that you want the product to be available from. No value means that is should be available now.",
+      "type": {
+        "id": "date",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "SELLABLE_IN_STORE",
+      "externalId": null,
+      "name": "Sellable in store",
+      "description": "Choose whether or not the product is sellable in the physical store.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "Yes",
+            "No"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "PAYMENT"
+      ],
+      "disableSubmitInStates": [
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "SELLABLE_ONLINE",
+      "externalId": null,
+      "name": "Sellable online",
+      "description": "Choose whether or not the product is sellable on the webshop.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "Yes",
+            "No"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "PAYMENT"
+      ],
+      "disableSubmitInStates": [
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PRODUCTION_YEAR",
+      "externalId": null,
+      "name": "Production year",
+      "description": "The year the product was produced.",
+      "type": {
+        "id": "integer",
+        "restriction": {
+          "parameters": {
+            "minValue": "1900"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [
+            {
+              "pattern": "^\\d{4}$",
+              "message": "Please enter a 4 digit number."
+            }
+          ],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "ACCOUNT_DISCRIMINATOR",
+      "externalId": null,
+      "name": "Account",
+      "description": "Account used to submit product to channel. If empty, default will be used.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {
+            "clientSpecificListOfValues": "accountList"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MEASURE_CHEST",
+      "externalId": null,
+      "name": "Chest",
+      "description": "Measurement from one armpit to the other.",
+      "type": {
+        "id": "fraction",
+        "restriction": {
+          "parameters": {
+            "minValue": "0"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [
+          "unece.unit.INH",
+          "unece.unit.CMT"
+        ],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "SIZEGUIDE"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MEASURE_LENGTH",
+      "externalId": null,
+      "name": "Length",
+      "description": "Measurement from the top to the bottom.",
+      "type": {
+        "id": "fraction",
+        "restriction": {
+          "parameters": {
+            "minValue": "0"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [
+          "unece.unit.INH",
+          "unece.unit.CMT"
+        ],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "SIZEGUIDE"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MEASURE_SHOULDER",
+      "externalId": null,
+      "name": "Shoulder",
+      "description": "Measurement from one shoulder to the other",
+      "type": {
+        "id": "fraction",
+        "restriction": {
+          "parameters": {
+            "minValue": "0"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "SIZEGUIDE"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "SIZE",
+      "externalId": null,
+      "name": "Size",
+      "description": "Select a size from the list.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "XXS",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "SUBSTITUTED_BY",
+      "externalId": null,
+      "name": "Substituted by",
+      "description": "Reference to a product that substitute the current product in case of supply shortage.",
+      "type": {
+        "id": "reference",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PROMOTIONAL_DATES",
+      "externalId": null,
+      "name": "Promotional dates",
+      "description": "Please input the dates that the product is allowed promotions and / or discounts.",
+      "type": {
+        "id": "date",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [
+        "ERROR"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PRIMARY_ASSET",
+      "externalId": null,
+      "name": "Primary image",
+      "description": "Primary image of the product.",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/jpeg\",\"image/png\",\"application/pdf\"]",
+            "minPixelWidth": "200",
+            "minPixelHeight": "200"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "ASSETS"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "ASSET_FRONT",
+      "externalId": null,
+      "name": "Front",
+      "description": "Image displaying front of product.",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/*\",\"application/pdf\"]",
+            "minPixelWidth": "200",
+            "minPixelHeight": "200"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "ASSETS"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "ASSET_BRAND_LOGO",
+      "externalId": null,
+      "name": "Brand Logo",
+      "description": "Image displaying logo of the product brand. Min size restriction is 100x100, max size restriction 300x300",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/*\"]",
+            "minPixelWidth": "100",
+            "minPixelHeight": "100",
+            "maxPixelWidth": "300",
+            "maxPixelHeight": "300"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "ASSETS"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "ASSET_BACK",
+      "externalId": null,
+      "name": "Back",
+      "description": "Image displaying back of product.",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/jpeg\",\"image/png\",\"application/pdf\"]",
+            "minPixelWidth": "200",
+            "minPixelHeight": "200"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "ASSETS"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "ASSET_DETAIL",
+      "externalId": null,
+      "name": "Detail",
+      "description": "Image displaying a detail of product.",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/jpeg\",\"image/png\",\"application/pdf\"]",
+            "minPixelWidth": "200",
+            "minPixelHeight": "200"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "ASSETS"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "ASSET_CONTEXT",
+      "externalId": null,
+      "name": "Context",
+      "description": "Image displaying the product in context.",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/jpeg\",\"image/png\",\"application/pdf\"]",
+            "minPixelWidth": "200",
+            "minPixelHeight": "200"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "ASSETS"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "GTIN",
+      "externalId": null,
+      "name": "GTIN",
+      "description": "Global Trade Item Number (GTIN)",
+      "type": {
+        "id": "gtin",
+        "restriction": {
+          "parameters": {
+            "gtinSizes": "[14]"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES",
+        "__ATTRIBUTE_FILTER",
+        "__PACKAGING_IDENTIFIERS",
+        "__PRODUCT_IDENTIFIERS"
+      ],
+      "disableSubmitInStates": [
+        "SUCCESS",
+        "ERROR",
+        "INITIALIZATION_CHANNEL_STATUS"
+      ],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PACKAGING",
+      "externalId": null,
+      "name": "Package content",
+      "description": "Reference to the content",
+      "type": {
+        "id": "reference",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [
+        {
+          "id": "QUANTITY_ID",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PACKAGING_PATH",
+      "externalId": null,
+      "name": "Packaging Path",
+      "description": "Composite attribute containing information on your packaging structure. This is only usable if you have a flat packaging structure, otherwise please use the Package content attribute.",
+      "type": {
+        "id": "packaging",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [
+        {
+          "id": "QUANTITY_ID",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "GTIN",
+          "optional": false,
+          "initRequired": true,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "GROSS_WEIGHT",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "HEIGHT",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DEPTH",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "WIDTH",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "DANGEROUS_CONTENT",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "PACKAGING_LEVEL",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "SELLABLE_UNIT",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "QUANTITY_ID",
+      "externalId": null,
+      "name": "Quantity",
+      "description": "Quantity of the content",
+      "type": {
+        "id": "integer",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "__PACKAGING_IDENTIFIERS"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "GROSS_WEIGHT",
+      "externalId": null,
+      "name": "Gross Weight (lb)",
+      "description": "The total weight of the shipping container in pounds.",
+      "type": {
+        "id": "decimal",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "HEIGHT",
+      "externalId": null,
+      "name": "Height (in)",
+      "description": "Overall hight of shipping container in inches.",
+      "type": {
+        "id": "decimal",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "DEPTH",
+      "externalId": null,
+      "name": "Depth (in)",
+      "description": "Overall depth of shipping container in inches.",
+      "type": {
+        "id": "decimal",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "WIDTH",
+      "externalId": null,
+      "name": "Width (in)",
+      "description": "Overall width of shipping container in inches.",
+      "type": {
+        "id": "decimal",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "DANGEROUS_CONTENT",
+      "externalId": null,
+      "name": "Dangerous content?",
+      "description": "Does the case contain dangerous content? Please refer to http://www.fedex.com/dangerousgoods/ for more information.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "yes",
+            "no"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "DEFAULT_SUBMIT_OUTCOME_ID",
+      "externalId": null,
+      "name": "Submission outcome",
+      "description": "Used for testing - specify the outcome of you submission.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "Pending",
+            "Sent",
+            "Success",
+            "Error",
+            "Rejected",
+            "Returned",
+            "None"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "DEFAULT_SUBMIT_MESSAGE_ID",
+      "externalId": null,
+      "name": "Submission message",
+      "description": "Used for testing - specify the error message upon submission.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "PACKAGING_LEVEL",
+      "externalId": null,
+      "name": "Packaging level",
+      "description": "Determines the level of the package in the packaging heirarchy",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "EA",
+            "CA",
+            "PK",
+            "PL"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "__PACKAGING_IDENTIFIERS"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "SELLABLE_UNIT",
+      "externalId": null,
+      "name": "Sellable Unit?",
+      "description": "Is the item labeled or authorized for sale to consumers at this packaging level? (not necessarily sold in store)",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "yes",
+            "no"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [
+        "__PACKAGING_IDENTIFIERS"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_BREAKDOWN",
+      "externalId": null,
+      "name": "Material breakdown",
+      "description": "Materials included in the product, please specify the type and amount.",
+      "type": {
+        "id": "composite",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [
+        {
+          "id": "MATERIAL",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_PERCENTAGE",
+          "optional": false,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_FEATURES",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_IMAGE",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_NOTES",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_DETAILS",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_PROPERTIES",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL",
+      "externalId": null,
+      "name": "Material",
+      "description": "Select the material / fabric of the product.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "Cotton",
+            "Leather",
+            "Linen",
+            "Metal",
+            "Plastic",
+            "Rubber",
+            "Synthetic Textile",
+            "Unclassified",
+            "Wool"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_PERCENTAGE",
+      "externalId": null,
+      "name": "Material amount",
+      "description": "Enter the material amount in percent.",
+      "type": {
+        "id": "decimal",
+        "restriction": {
+          "parameters": {
+            "maxValue": "100",
+            "minValue": "0"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_FEATURES",
+      "externalId": null,
+      "name": "Material features",
+      "description": "Please specify the features of the material, select all that apply",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [
+            "Fire resistant",
+            "Waterproof",
+            "Dust resistant",
+            "Bulletproof",
+            "Indestructible",
+            "Anvil proof"
+          ],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_IMAGE",
+      "externalId": null,
+      "name": "Material image",
+      "description": "Photo / illustration of the material",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/jpeg\",\"image/png\",\"application/pdf\"]",
+            "minPixelWidth": "200",
+            "minPixelHeight": "200"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_NOTES",
+      "externalId": null,
+      "name": "Material notes",
+      "description": "Add any additional relevant notes about the material.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_PROPERTIES_NAME",
+      "externalId": null,
+      "name": "Property Name",
+      "description": null,
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_PROPERTIES_VALUE",
+      "externalId": null,
+      "name": "Property Value",
+      "description": null,
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_PROPERTIES",
+      "externalId": null,
+      "name": "Material Properties",
+      "description": null,
+      "type": {
+        "id": "composite",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [
+        {
+          "id": "MATERIAL_PROPERTIES_NAME",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_PROPERTIES_VALUE",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "groupIds": [
+        "UNGROUPED_ATTRIBUTES"
+      ],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_DETAILS",
+      "externalId": null,
+      "name": "Material details",
+      "description": "More details for the material",
+      "type": {
+        "id": "composite",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [
+        {
+          "id": "MATERIAL_DESCRIPTION",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_SECONDARY_IMAGE",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_DETAILS_TYPE",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_DESCRIPTION",
+      "externalId": null,
+      "name": "Description",
+      "description": "A detailed description of the material.",
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_SECONDARY_IMAGE",
+      "externalId": null,
+      "name": "Secondary image",
+      "description": "A secondary image of the material.",
+      "type": {
+        "id": "asset",
+        "restriction": {
+          "parameters": {
+            "contentTypes": "[\"image/jpeg\",\"image/png\",\"application/pdf\"]",
+            "minPixelWidth": "400",
+            "minPixelHeight": "400"
+          },
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_DETAILS_TYPE",
+      "externalId": null,
+      "name": "Material Details Type",
+      "description": null,
+      "type": {
+        "id": "composite",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": true,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [
+        {
+          "id": "MATERIAL_DETAILS_TYPE_APPLICABILITY",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        },
+        {
+          "id": "MATERIAL_DETAILS_TYPE_NOTE",
+          "optional": true,
+          "initRequired": false,
+          "appliesTo": "ALL",
+          "datastandardPattern": null,
+          "datastandardPatternExample": null,
+          "listOfValuesFilter": [],
+          "defaultValue": null
+        }
+      ],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_DETAILS_TYPE_APPLICABILITY",
+      "externalId": null,
+      "name": "Applicability",
+      "description": null,
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    },
+    {
+      "id": "MATERIAL_DETAILS_TYPE_NOTE",
+      "externalId": null,
+      "name": "Note",
+      "description": null,
+      "type": {
+        "id": "string",
+        "restriction": {
+          "parameters": {},
+          "listOfValues": [],
+          "filteredListOfValues": {},
+          "listOfValuesFilterAttribute": null,
+          "patterns": [],
+          "skipListOfValuesValidation": false,
+          "languagesAttributesEnabled": false,
+          "multilanguageNameAndDescriptionEnabled": false
+        },
+        "isFamily": false,
+        "multiValue": false,
+        "units": [],
+        "clientSpecificListOfValues": null,
+        "languages": null,
+        "lockedByOverride": false
+      },
+      "attributeLinks": [],
+      "groupIds": [],
+      "disableSubmitInStates": [],
+      "readOnlyCondition": null,
+      "metadata": [],
+      "displaySequence": null
+    }
+  ],
+  "attributeGroups": [
+    {
+      "id": "SIZEGUIDE",
+      "name": "Sizeguide",
+      "description": "Detailed measurements of the product.",
+      "contexts": []
+    },
+    {
+      "id": "PAYMENT",
+      "name": "Payment options",
+      "description": "Price and currency options.",
+      "contexts": []
+    },
+    {
+      "id": "ASSETS",
+      "name": "Assets",
+      "description": "All assets related to the product.",
+      "contexts": []
+    },
+    {
+      "id": "UNGROUPED_ATTRIBUTES",
+      "name": "Ungrouped attributes",
+      "description": "",
+      "contexts": []
+    },
+    {
+      "id": "__LISTVIEW",
+      "name": "List view",
+      "description": "All categories that shall be visible while using list view.",
+      "contexts": []
+    },
+    {
+      "id": "__ATTRIBUTE_FILTER",
+      "name": "Attribute filter",
+      "description": "List of attributes that can be used to filter products.",
+      "contexts": []
+    },
+    {
+      "id": "__PACKAGING_IDENTIFIERS",
+      "name": "Packaging Identifiers",
+      "description": "",
+      "contexts": []
+    },
+    {
+      "id": "__PRODUCT_IDENTIFIERS",
+      "name": "List of attributes that can be used as identifiers in retrieval process.",
+      "description": "",
+      "contexts": []
+    }
+  ],
+  "primaryAttributes": {
+    "asset": "PRIMARY_ASSET",
+    "package": "PACKAGING",
+    "quantity": "QUANTITY_ID",
+    "flatPackagingCompulsory": "GTIN",
+    "marketingCompulsory": "SELLABLE_UNIT",
+    "account": "ACCOUNT_DISCRIMINATOR"
+  },
+  "primaryCategories": {
+    "packaging": "PACKAGING"
+  },
+  "disableSubmitInStates": [
+    "PENDING",
+    "SENT"
+  ],
+  "disableSubmitInternalStates": [],
+  "enableUnpublishInStates": [],
+  "enableRemoveInStates": [
+    "PROGRESS",
+    "READY"
+  ],
+  "disableSubmitBasedOn": "LEAF_STATUS",
+  "unitsOfMeasure": {
+    "unece.unit.KWT": {
+      "id": "unece.unit.KWT",
+      "name": "kW"
+    },
+    "unece.unit.BTH": {
+      "id": "unece.unit.BTH",
+      "name": "Btu/h"
+    },
+    "unece.unit.CEL": {
+      "id": "unece.unit.CEL",
+      "name": "°C"
+    },
+    "unece.unit.AWG": {
+      "id": "unece.unit.AWG",
+      "name": "AWG"
+    },
+    "unece.unit.80": {
+      "id": "unece.unit.80",
+      "name": "psi"
+    },
+    "unece.unit.KGM": {
+      "id": "unece.unit.KGM",
+      "name": "kg"
+    },
+    "unece.unit.FAH": {
+      "id": "unece.unit.FAH",
+      "name": "°F"
+    },
+    "unece.unit.AMP": {
+      "id": "unece.unit.AMP",
+      "name": "A"
+    },
+    "unece.unit.85": {
+      "id": "unece.unit.85",
+      "name": "ft.lb."
+    },
+    "unece.unit.MLT": {
+      "id": "unece.unit.MLT",
+      "name": "ml"
+    },
+    "unece.unit.ONZ": {
+      "id": "unece.unit.ONZ",
+      "name": "oz"
+    },
+    "unece.unit.G2": {
+      "id": "unece.unit.G2",
+      "name": "gal (US)/min"
+    },
+    "unece.unit.BTU": {
+      "id": "unece.unit.BTU",
+      "name": "Btu"
+    },
+    "unece.unit.MIL": {
+      "id": "unece.unit.MIL",
+      "name": "MIL"
+    },
+    "unece.unit.VLT": {
+      "id": "unece.unit.VLT",
+      "name": "V"
+    },
+    "unece.unit.LBR": {
+      "id": "unece.unit.LBR",
+      "name": "lb"
+    },
+    "unece.unit.MTR": {
+      "id": "unece.unit.MTR",
+      "name": "m"
+    },
+    "unece.unit.CMT": {
+      "id": "unece.unit.CMT",
+      "name": "cm"
+    },
+    "unece.unit.HJ": {
+      "id": "unece.unit.HJ",
+      "name": "hp"
+    },
+    "unece.unit.MMT": {
+      "id": "unece.unit.MMT",
+      "name": "mm"
+    },
+    "unece.unit.WTT": {
+      "id": "unece.unit.WTT",
+      "name": "W"
+    },
+    "unece.unit.IA": {
+      "id": "unece.unit.IA",
+      "name": "In lbs"
+    },
+    "unece.unit.INK": {
+      "id": "unece.unit.INK",
+      "name": "in²"
+    },
+    "unece.unit.MIN": {
+      "id": "unece.unit.MIN",
+      "name": "min"
+    },
+    "bottle": {
+      "id": "bottle",
+      "name": "bottles"
+    },
+    "unece.unit.FTK": {
+      "id": "unece.unit.FTK",
+      "name": "ft²"
+    },
+    "unece.unit.MCD": {
+      "id": "unece.unit.MCD",
+      "name": "mcd"
+    },
+    "unece.unit.HUR": {
+      "id": "unece.unit.HUR",
+      "name": "h"
+    },
+    "unece.unit.GLL": {
+      "id": "unece.unit.GLL",
+      "name": "gal (US)"
+    },
+    "unece.unit.DD": {
+      "id": "unece.unit.DD",
+      "name": "°"
+    },
+    "unece.unit.YRD": {
+      "id": "unece.unit.YRD",
+      "name": "yd"
+    },
+    "unece.unit.C31": {
+      "id": "unece.unit.C31",
+      "name": "mW"
+    },
+    "unece.unit.INH": {
+      "id": "unece.unit.INH",
+      "name": "in"
+    },
+    "unece.unit.FTQ": {
+      "id": "unece.unit.FTQ",
+      "name": "cu ft"
+    },
+    "unece.unit.RPM": {
+      "id": "unece.unit.RPM",
+      "name": "RPM"
+    },
+    "unece.unit.QT": {
+      "id": "unece.unit.QT",
+      "name": "qt (US)"
+    },
+    "unece.unit.FOT": {
+      "id": "unece.unit.FOT",
+      "name": "ft"
+    },
+    "unece.unit.MON": {
+      "id": "unece.unit.MON",
+      "name": "mo"
+    },
+    "unece.unit.OZA": {
+      "id": "unece.unit.OZA",
+      "name": "fl oz (US)"
+    },
+    "unece.unit.CU": {
+      "id": "unece.unit.CU",
+      "name": "cup (US)"
+    },
+    "unece.unit.LTR": {
+      "id": "unece.unit.LTR",
+      "name": "l"
+    }
+  },
+  "channelDefinedLanguages": {
+    "default": {
+      "name": "English",
+      "languageTag": "en",
+      "flagUrl": null,
+      "levelNotAvailable": null,
+      "mandatory": null,
+      "familyLanguages": [
+        {
+          "name": "English (United States)",
+          "languageTag": "en-US",
+          "flagUrl": "https://s3-eu-west-1.amazonaws.com/leap-ui-resources/channel-logos/market/svg/us.svg",
+          "mandatory": null
+        },
+        {
+          "name": "English (United Kingdom)",
+          "languageTag": "en-GB",
+          "flagUrl": "https://s3-eu-west-1.amazonaws.com/leap-ui-resources/channel-logos/market/svg/gb.svg",
+          "mandatory": null
+        }
+      ]
+    },
+    "alreadyDefined": [
+      {
+        "name": "English",
+        "languageTag": "en",
+        "flagUrl": null,
+        "levelNotAvailable": null,
+        "mandatory": null,
+        "familyLanguages": [
+          {
+            "name": "English (United States)",
+            "languageTag": "en-US",
+            "flagUrl": "https://s3-eu-west-1.amazonaws.com/leap-ui-resources/channel-logos/market/svg/us.svg",
+            "mandatory": null
+          },
+          {
+            "name": "English (United Kingdom)",
+            "languageTag": "en-GB",
+            "flagUrl": "https://s3-eu-west-1.amazonaws.com/leap-ui-resources/channel-logos/market/svg/gb.svg",
+            "mandatory": null
+          }
+        ]
+      },
+      {
+        "name": "French",
+        "languageTag": "fr",
+        "flagUrl": null,
+        "levelNotAvailable": null,
+        "mandatory": null,
+        "familyLanguages": [
+          {
+            "name": "French (Canada)",
+            "languageTag": "fr-CA",
+            "flagUrl": "https://s3-eu-west-1.amazonaws.com/leap-ui-resources/channel-logos/market/svg/ca.svg",
+            "mandatory": null
+          }
+        ]
+      },
+      {
+        "name": "Spanish",
+        "languageTag": "es",
+        "flagUrl": null,
+        "levelNotAvailable": null,
+        "mandatory": null,
+        "familyLanguages": [
+          {
+            "name": "Spanish (Spain)",
+            "languageTag": "es-ES",
+            "flagUrl": "https://s3-eu-west-1.amazonaws.com/leap-ui-resources/channel-logos/market/svg/es.svg",
+            "mandatory": null
+          },
+          {
+            "name": "Spanish (United States)",
+            "languageTag": "es-US",
+            "flagUrl": "https://s3-eu-west-1.amazonaws.com/leap-ui-resources/channel-logos/market/svg/us.svg",
+            "mandatory": null
+          }
+        ]
+      }
+    ]
+  },
+  "hierarchyMutationStrategies": []
+}

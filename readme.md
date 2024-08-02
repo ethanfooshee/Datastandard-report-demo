@@ -135,9 +135,9 @@ The fields are:
 
 # Real Data
 
-If the application is started, it can be tested on real data as
+If the application is started, it can be tested by calling the following endpoint
 
-    curl -s -u key:secret http://localhost:8080/report/acme/T_SHIRTS
+    curl -s -u key:secret http://localhost:8080/report/T_SHIRTS
 
 The expected content of this call is exported to the [t-shirts.csv](doc/t-shirts.csv) file, and imported into the
 corresponding [T-Shirts.xslx](doc/T-Shirts.xslx) file.
