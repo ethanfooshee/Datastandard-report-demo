@@ -137,7 +137,7 @@ The fields are:
 
 If the application is started, it can be tested by calling the following endpoint
 
-    curl -s -u key:secret http://localhost:8080/report/T_SHIRTS
+    curl -s http://localhost:8080/report/T_SHIRTS
 
 The expected content of this call is exported to the [t-shirts.csv](doc/t-shirts.csv) file, and imported into the
 corresponding [T-Shirts.xslx](doc/T-Shirts.xslx) file.
