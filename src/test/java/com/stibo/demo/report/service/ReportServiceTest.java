@@ -16,6 +16,7 @@ import java.io.InputStream;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = {ReportService.class, ObjectMapper.class})
