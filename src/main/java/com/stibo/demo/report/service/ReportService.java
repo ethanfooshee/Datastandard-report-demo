@@ -14,7 +14,6 @@ public class ReportService {
 
     @LogTime
     public Stream<Stream<String>> report(Datastandard datastandard, String categoryId) {
-        // TODO: implement
         // The method takes a data standard object and a category id as argument, and should return a stream of stream of strings.
         // The outer stream is the tabular rows, and the inner streams are the cells in a row. The controller 
         // [endpoint](src/main/java/com/stibo/demo/report/controller/ReportController.java) makes a naive conversion of this to
@@ -22,7 +21,6 @@ public class ReportService {
 
         // Find the category we're looking for
         Category category = datastandard.categories().stream().filter(cat -> cat.id().equals(categoryId)).findFirst().orElse(null);
-        // Category category = datastandard.categories().stream().filter(cat -> cat.id().equals(categoryId));
 
         // Skip if no category found
         if (category == null) {
@@ -33,7 +31,6 @@ public class ReportService {
         // Stream (Title headers)
         // Stream (Root attributes)
         // Stream (Child attributes)
-        // Add category attributes, loop through cats where parentID = categoryID, repeat
         return Stream.concat(
             Stream.of(Stream.of("Category Name", "Attribute Name", "Description", "Type", "Groups")), 
             getCategoryAttributes(category, datastandard)
@@ -46,6 +43,7 @@ public class ReportService {
     }
 
     private String getMandatory(AttributeLink attrLink) {
+        // This method returns an asterisk if the attribute is mandatory
         if (attrLink.optional() == null){
             return "";
         }
@@ -53,6 +51,7 @@ public class ReportService {
     }
 
     private String addSpace(int depth) {
+        // This method adds a number of spaces dependent on how deep the composite object is
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < depth; i++) {
             sb.append("  ");
@@ -61,26 +60,29 @@ public class ReportService {
     }
 
     private String getAttributeType(Attribute attribute, Datastandard datastandard, int depth) {
-        // Get the type of the attribute
+        // Return a string that represents the Type of the attribute
+
         String typeID = attribute.type().id();
+
         // Find all nested attributes, if any
         boolean hasNested = attribute.attributeLinks() != null  && !attribute.attributeLinks().isEmpty() ;
+        // Goes through each nested attribute, and returns each Attribute + its type separated by line breaks inside brackets
         String attrLinks = hasNested ?
             "{\n" + attribute.attributeLinks().stream().map((attrLink) -> {
                 Attribute attr = findAttribute(datastandard, attrLink.id());
                 return ("  " + addSpace(depth) + attr.name() + getMandatory(attrLink) + ": " + getAttributeType(attr, datastandard, depth + 1) + "\n");
             }).reduce("", (a, b) -> a + b) + addSpace(depth) + "}" : "";
-        // construct nested values string for output
-        //String nestedVals = hasNested ? "{" + attrLinks + "}" : "";
 
         return typeID + attrLinks + (attribute.type().multiValue() ? "[]" : "");
     }
 
     private Stream<Stream<String>> getChildCategoryAttributes(Category category, Datastandard datastandard) {
+        // Recursively loop down the selected Category's hierarchy, displaying all attributes
         return datastandard.categories().stream().filter(cat -> cat.parentId() != null && cat.parentId().equals(category.id())).flatMap(child -> getCategoryAttributes(child, datastandard));
     }
 
-    private Stream<Stream<String>> getParentCategoryAttributes(Category category, Datastandard datastandard) {   
+    private Stream<Stream<String>> getParentCategoryAttributes(Category category, Datastandard datastandard) {  
+        // Recursively loop up the selected Category's hierarchy, displaying all attributes 
         if (category.parentId() == null) {
             return Stream.of();
         }    
@@ -89,6 +91,9 @@ public class ReportService {
     }
 
     private Stream<Stream<String>> getCategoryAttributes(Category category, Datastandard datastandard) {
+        // Return a stream of all attributes in the category
+
+        // Loop through all attributes linked on this category
         var categoryAttributes = category.attributeLinks().stream().map((attrLink) -> {
             Attribute attr = findAttribute(datastandard, attrLink.id());
 
@@ -103,12 +108,11 @@ public class ReportService {
             );
         });
 
-        // Recursilvely loop down the selected Category's hierarchy, displaying all attributes
+        // Recursively add all other necessary attributes to output
         return Stream.concat(
             // getParentCategoryAttributes(category, datastandard),
             categoryAttributes,
             getChildCategoryAttributes(category, datastandard)
-            //datastandard.categories().stream().filter(cat -> cat.parentId() != null && cat.parentId().equals(categoryId)).flatMap(child -> getCategoryAttributes(child, datastandard))
         );
     }
 }
